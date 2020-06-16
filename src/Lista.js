@@ -134,7 +134,7 @@ function Lista(){
               </TableCell>
               <TableCell align="center">{item.placa}</TableCell>
               <TableCell align="center">{item.nomecliente}</TableCell>
-              <TableCell align="center">{item.duracaomin}</TableCell>
+              <TableCell align="center">{item.duracaomin}min</TableCell>
               <TableCell align="center" style={{width: '15px'}}>  <Button variant="outlined" color="primary" onClick={() => openDialogUpdate(item.placa,item.nomecliente,item.duracaomin,item.idvaga)}>  <CreateIcon /> &nbsp;Editar </Button> </TableCell>
               <TableCell align="center" style={{width: '15px'}}>  <Button variant="outlined" color="secondary" onClick={() => apagar(item.idvaga)}> <DeleteIcon /> &nbsp;Apagar </Button> </TableCell>
             </TableRow>
